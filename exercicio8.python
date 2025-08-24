@@ -1,0 +1,7 @@
+#Ler dois números n1 e n2 / Exibir todos os números entre n1 e n2
+
+n1 = int(input("Digite o número inicial: "))
+n2 = int(input("Digite o número final: "))
+
+for i in range(n1 + 1, n2):
+    print(i)
